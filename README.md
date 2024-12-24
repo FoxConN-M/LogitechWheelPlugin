@@ -1,5 +1,8 @@
-# LogitechWheelPlugin
-A plugin for UE4 that allows you to use a number of Logitech steering wheels and joysticks as an input device. 
+# LogitechWheelPlugin (Made by drb1992)
+
+*** The original plugin had no suport to Unreal 5, so i made a few changes on his code and updated for unreal 5.3, current im working on a project but i pretend to updade for newer versions too.
+
+A plugin for UE5 that allows you to use a number of Logitech steering wheels and joysticks as an input device.
 
 Supported Devices
 G27, Driving Force GT, G25, Momo Racing, Momo Force, Driving Force Pro, Driving Force, Nascar Racing Wheel, Formula Force, Formula Force GP, Force 3D Pro, Extreme 3D Pro, Freedom 24, Attack 3, Force 3D, Strike Force 3D, G940 Joystick, G940 Throttle, G940 Pedals, Rumblepad, Rumblepad 2, Cordless Rumblepad 2, Cordless Gamepad, Dual Action Gamepad, Precision Gamepad 2, Chillstream, G29, G920
@@ -28,6 +31,7 @@ Xbox Button
 
 KNOWN ISSUES:
 Broken Functions - WheelButtonIsPressed, WheelGetFriendlyProductName
+You have to conect and disconect the wheel when using in the editor
 
 Pedals will output a value of 0.5 until the wheel/pedals receive any kind of input.
 
