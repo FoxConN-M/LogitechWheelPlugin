@@ -1,4 +1,4 @@
-# LogitechWheelPlugin (Made by drb1992)
+# LogitechWheelPlugin (Made by drb1992 on https://github.com/drb1992/LogitechWheelPlugin)
 
 *** The original plugin had no suport to Unreal 5, so i made a few changes on his code and updated for unreal 5.3, current im working on a project but i pretend to updade for newer versions too.
 
@@ -31,7 +31,6 @@ Xbox Button
 
 KNOWN ISSUES:
 Broken Functions - WheelButtonIsPressed, WheelGetFriendlyProductName
-You have to conect and disconect the wheel when using in the editor
 
 Pedals will output a value of 0.5 until the wheel/pedals receive any kind of input.
 
